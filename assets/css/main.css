@@ -2623,6 +2623,7 @@ input, select, textarea {
 			display: block;
 			margin: 2.5rem 0;
 			width: 100%;
+			border: 2px solid white;
 		}
 
 			.image.fit:first-child {
@@ -4694,8 +4695,10 @@ input, select, textarea {
 		margin: 1rem auto;
 		padding: 2rem;
 		background-color: #fff;
-		color: #05edbb;
+		color: #6600ffb6;
 		font-family: 'Times New Roman', Times, serif;
+		
+		font-weight: bold;
 		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 	  }
 	  .skills-list {
@@ -4705,6 +4708,7 @@ input, select, textarea {
 	  .skills-list li {
 		display: flex;
 		align-items: center;
+		
 		/* padding: 1rem 0; */
 		border-bottom: 1px solid #000000;
 	  }
